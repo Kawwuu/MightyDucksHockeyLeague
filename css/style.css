@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tiro Gurmukhi', serif;
+    background-color: rgb(107, 95, 80);
+    background-image: url(/img/hockey1.jpg);
+    background-size: cover;
+    background-position: 15% 15% 15%;
+}
+header{
+    padding: 5rem;
+    background-image: url(/img/design1_image1.jpg);
+    background-size: cover;
+}
+img{
+    position: absolute;
+    top: 120px;
+    left: 1600px;
+}
+h1{
+    font-size: 100px;
+}
+header div h3{
+    background-color: rgba(7, 7, 7, 0.87);
+    color: rgba(245, 245, 245, 0.87);
+    font-size: 30px;
+    padding-left: 400px;
+}
+a{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: rgba(7, 7, 7, 0.87);
+    border: 5px solid yellow;
+    font-style: italic;
+    font-weight: 800;
+}
+a:hover{
+    background-color: gold;
+}
+aside{
+    display: inline-block;
+}
+ul{
+    padding: 1rem;
+    margin: 1rem;
+    list-style:none;
+}
+section{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+section div{
+    font-weight: 800;
+}
+p{
+    font-size: 15px;
+}
+.text{
+    width: 1000px;
+    text-align: center;
+}
+.text_info{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_info_contact{
+    font-size: 30px;
+    margin-left: 100px;
+}
+.nav{
+    border-color: blue;
+}
