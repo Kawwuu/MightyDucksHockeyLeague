@@ -42,8 +42,8 @@ a{
     font-weight: 800;
     font-size: 24px;
 }
-a:hover{
-    background-color: rgba(14, 6, 51, 0.849);
+.navBar_text:hover{
+    background-color: rgba(43, 36, 73, 0.849);
     transform: scale(1.2);
     transform: rotate(10deg);
 }
@@ -63,6 +63,10 @@ a:hover{
 section div picture img{
     width: 350px;
     height: 300px;
+}
+.imageAbout{
+    display: flex;
+    justify-content: space-around;
 }
 .nav{
     color: crimson;
@@ -105,6 +109,10 @@ section div picture img{
     padding: 4rem;
     margin: 20px;
 }
+.tableSize{
+    font-weight: 600;
+    font-style: italic;
+}
 .table_tittle{
     font-size: 20px;
     font-weight: 800;
@@ -112,6 +120,9 @@ section div picture img{
 table, th,td,tr{
     text-align: start;
     padding: 1rem 1.5rem 1rem 1.5rem;
+}
+.location{
+    text-align: center;
 }
 span{
     font-weight: bolder;
@@ -124,8 +135,75 @@ span{
     display: flex;
     justify-content: space-around;
 }
+.form{
+    margin: 50px;
+}
+.formHead{
+    display: flex;
+    justify-content: space-evenly;
+}
+.formInputs{
+    padding-left: 500px;
+    background-color: rgb(232, 235, 106);
+}
+.formAddress{
+    padding-left: 50px;
+}
+.pForm{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px;
+}
+.legendTittle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.legendMain{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 15px;
+}
+fieldset{
+    margin: 20px;
+}
+.buttonsType{
+    text-align: center;
+}
+.inputType{
+    font-size: 15px;
+    background-color: rgb(232, 235, 106);
+    font-weight: 600;
+}
+.inputType:hover{
+    background-color: rgba(14, 6, 51, 0.849);
+    transform: scale(1.2);
+    transform: rotate(10deg);
+}
+.school{
+    display: flex;
+justify-content: space-around;
+}
+.schoolTwo{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+}
+.permission{
+    font-style: italic;
+    margin: 15px;
+    font-weight: 600;
+}
+.inputFinal{
+    display: flex;
+    flex-direction: column;
+}
 .footer{
     background-color: rgb(232, 235, 106);
     text-align: center;
     color: rgba(7, 7, 7, 0.87);
-} 
+}
